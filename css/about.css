@@ -1,0 +1,39 @@
+.content-menu a:nth-child(3) {
+   border: 2px solid blue;
+   color: blue;
+}
+
+.form-slider {
+   width: 250px;
+   height: 380px;
+   border: 1px solid black;
+   margin: 50px auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.inner {
+   width: 500px;
+   height: 380px;
+   background-color: bisque;
+   transition: 0.6s;
+}
+
+.inner-left, .inner-right {
+   width: 50%;
+   float: left;
+   padding: 15px;
+}
+
+.inner-right {
+   overflow-y: scroll;
+   background-color: #ddd3a2;
+   max-height: 380px;
+}
+
+.see_details, .back {
+   cursor: pointer;
+}
+
+
+

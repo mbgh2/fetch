@@ -1,0 +1,35 @@
+.content-menu a:nth-child(9) {
+   border: 2px solid blue;
+   color: blue;
+}
+
+.container {
+   width: 96%;
+   height: 500px;
+   margin: 20px auto;
+   padding: 15px;
+   background-color: #775a5a;
+}
+
+.block {
+   height: 100%;
+   background-color: rgba(255,255,255,0.2);
+   box-shadow: 0 5px 45px rgba(0,0,0,0.2);
+}
+
+.block-item {
+   text-align: center;
+   /* margin: 15px; */
+
+}
+
+.block-item__title {
+   /* font-weight: normal; */
+   /* font-size: 1.2rem; */
+   /* color: #fff; */
+}
+
+
+
+
+
